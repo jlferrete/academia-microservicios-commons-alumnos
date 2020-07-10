@@ -86,7 +86,7 @@ public class Alumno {
 		
 		Alumno a = (Alumno) obj;
 		
-		return this.apellidos != null && this.id.equals(a.getId());
+		return this.id != null && this.id.equals(a.getId());
 	}
 	
 	
