@@ -49,7 +49,7 @@ public class Alumno {
 	}
 	
 	public Integer getFotoHashCode() {
-		return (this.foto != null)? this.getFotoHashCode().hashCode() : null;
+		return (this.foto != null)? this.foto.hashCode() : null;
 	}
 
 	public Long getId() {
