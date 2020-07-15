@@ -29,7 +29,7 @@ public class Alumno {
 	private String nombre;
 	
 	@NotEmpty
-	private String apellidos;
+	private String apellido;
 	
 	@NotEmpty
 	@Email
@@ -68,12 +68,12 @@ public class Alumno {
 		this.nombre = nombre;
 	}
 
-	public String getApellidos() {
-		return apellidos;
+	public String getApellido() {
+		return apellido;
 	}
 
-	public void setApellidos(String apellidos) {
-		this.apellidos = apellidos;
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
 	}
 
 	public String getEmail() {
